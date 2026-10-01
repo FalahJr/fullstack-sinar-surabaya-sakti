@@ -1,0 +1,106 @@
+/**
+ *
+ * You can write your CSS code here, DO NOT touch the default JavaScript file
+ * because it will make it harder for you to update.
+ * 
+ */
+
+/* Modifikasi Tema Stisla - PT. Sinar Surabayasakti (Comfortable Deep Royal Blue) */
+body {
+  background-color: #f7fafc !important;
+}
+
+/* Sidebar Styling kustom */
+.main-sidebar {
+  background-color: #1a365d !important;
+}
+
+.main-sidebar .sidebar-brand {
+  background-color: #152e52 !important;
+  border-bottom: 1px solid #1c3d5e;
+}
+
+.main-sidebar .sidebar-brand a {
+  color: #ffffff !important;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.main-sidebar .sidebar-menu li.menu-header {
+  color: #a0aec0 !important;
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+
+.main-sidebar .sidebar-menu li a {
+  color: #cbd5e0 !important;
+}
+
+.main-sidebar .sidebar-menu li a:hover {
+  background-color: #2b6cb0 !important;
+  color: #ffffff !important;
+}
+
+.main-sidebar .sidebar-menu li.active a {
+  background-color: #2b6cb0 !important;
+  color: #ffffff !important;
+  font-weight: 600;
+}
+
+/* Header Navbar Styling */
+.navbar-bg {
+  background-color: #2b6cb0 !important;
+  height: 115px;
+}
+
+.main-navbar {
+  background-color: #2b6cb0 !important;
+}
+
+.main-navbar .nav-link {
+  color: #ffffff !important;
+}
+
+/* Card & UI Buttons Comfortable Colors */
+.card {
+  border-radius: 8px;
+  box-shadow:
+    0 4px 6px rgba(0, 0, 0, 0.05),
+    0 1px 3px rgba(0, 0, 0, 0.03);
+}
+
+.card .card-header h4 {
+  color: #1a365d !important;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.btn-primary {
+  background-color: #2b6cb0 !important;
+  border-color: #2b6cb0 !important;
+  color: #ffffff !important;
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus {
+  background-color: #1a365d !important;
+  border-color: #1a365d !important;
+}
+
+.bg-primary {
+  background-color: #2b6cb0 !important;
+}
+
+.text-primary {
+  color: #2b6cb0 !important;
+}
+
+/* Align breadcrumb nicely */
+.section .section-header .breadcrumb {
+  margin-left: auto;
+}
+
+/*# sourceMappingURL=custom.css.map */
